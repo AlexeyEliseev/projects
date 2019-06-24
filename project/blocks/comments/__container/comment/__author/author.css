@@ -1,0 +1,12 @@
+.comment__author {
+    width: 382px;
+    margin: 0;
+    padding-top: 24px; 
+
+    font-family: 'Inter';
+    font-size: 14px;
+    line-height: 23px;
+    font-weight: bold;
+
+    color: #ffffff;
+}

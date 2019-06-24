@@ -1,0 +1,28 @@
+.header__logo {
+    width: 14.95%;
+    margin: 0;
+}
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+    .header__logo {
+        width: 19.028%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .header__logo {
+        width: 22.99%;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 767px) {
+    .header__logo {
+        width: 37.86%;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 374px) {
+    .header__logo {
+        width: 49.30%;
+    }
+}

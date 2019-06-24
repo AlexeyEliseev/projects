@@ -1,0 +1,42 @@
+.lead__group {
+    width: 95.13%;
+    padding-bottom: 13.99%;
+    padding-top: 8.81%;
+    padding-left: 2.88%;
+}
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+    .lead__group {
+        width: 95.23%;
+        padding-top: 13.669%;
+        padding-bottom: 19.67%;
+        padding-left: 3.82%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .lead__group {
+        width: 95.23%;
+        padding-top: 13.669%;
+        padding-bottom: 19.89%;
+        padding-left: 4.21%;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 767px) {
+    .lead__group {
+        width: 94.165%;
+        padding-top: 13.669%;
+        padding-bottom: 20.46%;
+        padding-left: 4.218%;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 374px) {
+    .lead__group {
+        width: 95.23%;
+        padding-top: 13.669%;
+        padding-bottom: 23.98%;
+        padding-left: 4.21875%;
+    }
+}

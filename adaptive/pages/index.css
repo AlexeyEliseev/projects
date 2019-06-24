@@ -1,0 +1,42 @@
+@import url('../vendor/normalize.css');
+@import url('../blocks/header/header.css');
+@import url('../blocks/lead/lead.css');
+@import url('../blocks/intro/intro.css');
+@import url('../blocks/photo-grid/photo-grid.css');
+@import url('../blocks/places/places.css');
+@import url('../blocks/video/video.css');
+@import url('../blocks/additional/additional.css');
+@import url('../blocks/comments/comments.css');
+@import url('../blocks/cover/cover.css');
+@import url('../blocks/emblem/emblem.css');
+@import url('../blocks/barentsburg/barentsburg.css');
+@import url('../blocks/footer/footer.css');
+
+@font-face {
+    src: url('../fonts/Inter/Inter-Regular.woff2') format('woff2');
+    font-family: 'Inter';
+    font-weight: normal;
+}
+
+@font-face {
+    src: url('../fonts/Inter/Inter-Bold.woff2') format('woff2');
+    font-family: 'Inter';
+    font-weight: bold;
+}
+
+body {
+    background-color: #2A2C2F;
+}
+
+.page {
+    min-width: 320;
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: #2A2C2F;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
+}

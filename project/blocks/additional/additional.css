@@ -1,0 +1,12 @@
+@import url('./__container/container.css');
+@import url('./content__title/content__title.css');
+@import url('./content__subtitle/content__subtitle.css');
+
+.additional {
+    display: flex;
+    flex-direction: column;
+
+    width: 1184px;
+    padding: 102px 128px 0 128px;
+
+}

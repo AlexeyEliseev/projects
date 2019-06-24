@@ -1,0 +1,28 @@
+.footer__copyright {
+    width: 282px;
+    margin: 0;
+    align-self: flex-end;
+
+    font-family: 'Inter';
+    font-size: 14px;
+    line-height: 20px;
+    text-align: right;
+    
+    color: #ffffff;
+}
+
+@media (min-width: 375px) and (max-width: 767px) {
+    .footer__copyright {
+        padding-top: 48px;
+        text-align: left;
+        align-self: flex-start;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 374px) {
+    .footer__copyright {
+        padding-top: 48px;
+        text-align: left;
+        align-self: flex-start;
+    }
+}

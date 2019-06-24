@@ -1,0 +1,11 @@
+.comment__quote {
+    width: 382px;
+    margin: 0;
+    padding-top: 42px;
+
+    font-family: 'Inter';
+    font-size: 14px;
+    line-height: 23px;
+    
+    color: #ffffff;
+}

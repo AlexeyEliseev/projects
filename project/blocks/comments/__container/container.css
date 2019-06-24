@@ -1,0 +1,11 @@
+@import url('./comment/comment.css');
+
+.comments__container {
+    width: 1184px;
+    margin: 0;
+    padding-top: 72px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}

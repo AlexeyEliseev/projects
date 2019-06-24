@@ -1,0 +1,90 @@
+.cover__subtitle {
+    width: 382px;
+    margin: 0;
+    position: absolute;
+    left: 401px;
+    bottom: 48px;
+
+    font-family: 'Inter';
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    font-weight: normal;
+
+    color: #ffffff;
+    z-index: 2;
+}
+
+.cover__subtitle_mini{
+    display: none;
+}
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+    .cover__subtitle {
+        width: 40.33%;
+        left: 316px;
+        bottom: 28px;
+    }
+    .cover__subtitle_mini{
+        display: none;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .cover__subtitle {
+        width: 49.73%;
+        left: 193px;
+        bottom: 40px;
+    }
+    .cover__subtitle_mini{
+        display: none;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 767px) {
+    .cover__subtitle {
+        display: none;
+    }
+    .cover__subtitle_mini{
+        margin: 0;
+        position: absolute;
+        display: block;
+        width: 72%;
+        left: 58px;
+        bottom: 24px;
+        font-size: 14px;
+        line-height: 17px;
+        text-align: center;
+
+        font-family: 'Inter';
+        text-align: center;
+        font-weight: normal;
+
+        color: #ffffff;
+        z-index: 2;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 374px) {
+    .cover__subtitle {
+        display: none;
+    }
+    .cover__subtitle_mini {
+        margin: 0;
+        position: absolute;
+        display: block;
+        width: 85%;
+        left: 16px;
+        bottom: 24px;
+        font-size: 14px;
+        line-height: 17px;
+        text-align: center;
+
+        font-family: 'Inter';
+        text-align: center;
+        font-weight: normal;
+
+        color: #ffffff;
+        z-index: 2;
+    }
+}

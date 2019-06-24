@@ -1,0 +1,37 @@
+.video__item-bg:hover {
+    background-size: cover;
+    opacity: 0.5;
+    border-radius: 5px;
+    overflow: hidden;
+    width: 100%;
+}
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+    .video__item-bg {
+        width: 100%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .video__item-bg {
+        width: 100.2%;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 767px) {
+    .video__item-bg {
+        width: 109.3%;
+    }
+    .video__item-bg:hover {
+        width: 109.3%;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 374px) {
+    .video__item-bg {
+        width: 111.1%;
+    }
+    .video__item-bg:hover {
+        width: 111.1%;
+    }
+}

@@ -1,0 +1,42 @@
+@import url('./__title/title.css');
+@import url('./__subtitle/subtitle.css');
+@import url('./__icon_play/icon-play.css');
+@import url('./__duration/duration.css');
+@import url('./__item-bg/item-bg.css');
+
+.video__item {
+    position: relative;
+    width: 49.239%;
+    height: 323px;
+    margin: 0;
+}
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+    .video__item {
+        width: 49.137%;
+        height: 100%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .video__item {
+        width: 48.8%;
+        height: 100%;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 767px) {
+    .video__item {
+        width: 91.46%;
+        height: 100%;
+        padding-top: 8px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 374px) {
+    .video__item {
+        width: 90%;
+        height: 100%;
+        padding-top: 8px;
+    }
+}

@@ -1,0 +1,39 @@
+@import url('./__logo/logo.css');
+@import url('./__lang/lang.css');
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 82.223%;
+    margin: auto;
+    padding-top: 2.084%;
+}
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+    .header {
+        width: 90.625%;
+        padding-top: 2.92%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .header {
+        width: 93.75%;
+        padding-top: 3.90625%;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 767px) {
+    .header {
+        width: 91.46%;
+        padding-top: 4.26%;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 374px) {
+    .header {
+        width: 90%;
+        padding-top: 5%;
+    }
+}

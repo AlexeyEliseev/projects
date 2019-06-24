@@ -1,0 +1,14 @@
+.additional__heading {
+    position: absolute;
+    width: 248px;
+    top: 30px;
+    left: 18px;
+
+    font-family: 'Inter';
+    font-size: 27px;
+    line-height: 29px;
+    font-weight: bold;
+    
+    color: #ffffff;
+    z-index: 2;
+}

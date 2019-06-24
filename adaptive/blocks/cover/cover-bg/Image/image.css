@@ -1,0 +1,34 @@
+.image {
+    width: 100%;
+    height: 594px;
+    margin: 0;
+    background-size: cover;
+}
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+    .Image {
+        width: 100%;
+        height: 562px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .Image {
+        width: 100%;
+        height: 500px;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 767px) {
+    .Image {
+        width: 100%;
+        height: 272px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 374px) {
+    .Image {
+        width: 100%;
+        height: 216px;
+    }
+}

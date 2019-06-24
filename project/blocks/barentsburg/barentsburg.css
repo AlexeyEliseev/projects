@@ -1,0 +1,13 @@
+@import url('./__title/title.css');
+@import url('./__coord/coord.css');
+@import url('./__map/map.css');
+@import url('./info/info.css');
+
+.barentsburg {
+    width: 1184px;
+    margin: 0;
+    padding: 85px 128px 0 128px;
+    
+    display: flex;
+    flex-direction: column;
+}

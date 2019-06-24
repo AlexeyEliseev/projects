@@ -1,0 +1,12 @@
+.website__url {
+    width: 484px;
+    height: 18px;
+    margin: 0;
+
+    font-family: 'Inter';
+    font-size: 18px;
+    line-height: 30px;
+    text-decoration: underline;
+
+    color: #ffffff;
+}

@@ -1,0 +1,46 @@
+@import url('./__title/title.css');
+@import url('./__subtitle/subtitle.css');
+@import url('./__content-row/content-row.css');
+@import url('./__text/text.css');
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    width: 47.43%;
+    padding-top: 7%;
+    margin-left: 15.83%;
+}
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+    .intro {
+        width: 90.625%;
+        padding-top: 7.8125%;
+        margin-left: 4.6875%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .intro {
+        width: 93.75%;
+        padding-top: 10.416%;
+        margin-left: 3.125%;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 767px) {
+    .intro {
+        width: 91.46%;
+        padding-top: 17.06%;
+        margin-left: 4.26%;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 374px) {
+    .intro {
+        width: 90%;
+        padding-top: 20%;
+        margin-left: 5%;
+    }
+}

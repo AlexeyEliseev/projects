@@ -1,0 +1,48 @@
+.place__title {
+    width: 46.44%;
+    margin: 0;
+
+    font-family: 'Inter';
+    font-size: 72px;
+    line-height: 65px;
+
+    color: #ffffff;
+}
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+    .place__title {
+        width: 42.96875%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .place__title {
+        width: 47.2%;
+        font-size: 42px;
+        line-height: 46px;
+    }
+    .place__title_kursh {
+        width: 44%;
+    }
+    .place__title_baikal {
+        width: 45%;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 767px) {
+    .place__title {
+        width: 91.46%;
+        font-size: 32px;
+        line-height: 35px;
+        margin: auto;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 374px) {
+    .place__title {
+        width: 90%;
+        font-size: 32px;
+        line-height: 35px;
+        margin: auto;
+    }
+}

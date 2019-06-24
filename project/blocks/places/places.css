@@ -1,0 +1,6 @@
+@import url('./place/place.css');
+
+.places {
+    width: 984px;
+    padding-top: 20px;
+}

@@ -1,0 +1,35 @@
+@import url('./place/place.css');
+
+.places {
+    width: 68.33%;
+    padding-top: 1.389%;
+    margin: auto;
+}
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+    .places {
+        width: 90.625%;
+        padding-top: 1.95%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .places {
+        width: 93.75%;
+        padding-top: 2.73%;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 767px) {
+    .places {
+        width: 100%;
+        padding-top: 16px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 374px) {
+    .places {
+        width: 100%;
+        padding-top: 16px;
+    }
+}

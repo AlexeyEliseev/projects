@@ -1,0 +1,24 @@
+.content-row__text-caption {
+    width: 100%;
+    margin: 0;
+
+    font-family: 'Inter';
+    font-size: 14px;
+    line-height: 23px;
+    
+    color: #ffffff;
+}
+
+@media (min-width: 375px) and (max-width: 767px) {
+    .content-row__text-caption {
+        font-size: 16px;
+        line-height: 27px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 374px) {
+    .content-row__text-caption {
+        font-size: 16px;
+        line-height: 27px;
+    }
+}

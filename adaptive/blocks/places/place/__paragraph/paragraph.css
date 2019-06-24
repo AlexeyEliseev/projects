@@ -1,0 +1,37 @@
+@import url('./paragraph-main/paragraph-main.css');
+@import url('./paragraph-more/paragraph-more.css');
+
+.place__paragraph {
+    width: 49.187%;
+    padding-top: 6.097%;
+}
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+    .place__paragraph {
+        width: 49.137%;
+        padding-top: 6.14%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .place__paragraph {
+        width: 48.8%;
+        padding-top: 7.083%;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 767px) {
+    .place__paragraph {
+        width: 91.46%;
+        padding-top: 6.4%;
+        margin: auto;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 374px) {
+    .place__paragraph {
+        width: 90%;
+        padding-top: 7.5%;
+        margin: auto;
+    }
+}

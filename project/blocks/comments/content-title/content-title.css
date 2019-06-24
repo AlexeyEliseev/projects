@@ -1,0 +1,11 @@
+.content-title {
+    width: 800px;
+    margin: 0;
+
+    font-family: 'Inter';
+    font-size: 72px;
+    line-height: 78px;
+    text-align: center;
+
+    color: #ffffff;
+}

@@ -1,0 +1,13 @@
+.intro__text {
+    width: 383px;
+    height: 93px;
+    margin: 0;
+    padding-top: 35px;
+
+    font-family: 'Inter';
+    font-size: 13px;
+    line-height: 20px;
+    text-align: left;
+
+    color: #ffffff;
+}

@@ -1,0 +1,72 @@
+.video__title {
+    position: absolute;
+    width: 55.24%;
+    margin: 0;
+    top: 189px;
+    left: 30px;
+
+    font-family: 'Inter';
+    font-size: 36px;
+    line-height: 39px;
+    
+    color: #ffffff;
+    z-index: 2;
+}
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+    .video__title {
+        width: 70.61%;
+        top: 125px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .title-kamchatka {
+        width: 81.81%;
+        top: 124px;
+        left: 24px;
+        font-size: 24px;
+        line-height: 26px;
+    }
+    .title-observ {
+        width: 91.47%;
+        top: 102px;
+        left: 24px;
+        font-size: 24px;
+        line-height: 26px;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 767px) {
+    .title-kamchatka {
+        width: 86%;
+        top: 126px;
+        left: 24px;
+        font-size: 24px;
+        line-height: 26px;
+    }
+    .title-observ {
+        width: 86%;
+        top: 102px;
+        left: 24px;
+        font-size: 24px;
+        line-height: 26px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 374px) {
+    .title-kamchatka {
+        width: 100%;
+        top: 105px;
+        left: 16px;
+        font-size: 24px;
+        line-height: 26px;
+    }
+    .title-observ {
+        width: 88.8%;
+        top: 85px;
+        left: 16px;
+        font-size: 24px;
+        line-height: 26px;
+    }
+}

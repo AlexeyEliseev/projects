@@ -1,0 +1,17 @@
+@import url('./__title/title.css');
+@import url('./__item/item.css');
+
+.emblem {
+    width: 1184px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    padding: 82px 128px 0 128px;
+}
+
+.emblems {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 82px; 
+}

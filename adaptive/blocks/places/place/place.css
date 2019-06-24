@@ -1,0 +1,40 @@
+@import url('./__title/title.css');
+@import url('./__website/website.css');
+@import url('./__image/image.css');
+@import url('./__paragraph/paragraph.css');
+
+.place {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 7.317%;
+}
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+    .place {
+        width: 100%;
+        padding-top: 7.75%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .place {
+        width: 100%;
+        padding-top: 11.75%;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 767px) {
+    .place {
+        width: 100%;
+        padding-top: 12.8%;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 374px) {
+    .place {
+        width: 100%;
+        padding-top: 15%;
+    }
+}

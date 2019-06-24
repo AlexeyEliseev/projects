@@ -1,0 +1,39 @@
+@import url('./__container/container.css');
+
+.comments {
+    width: 82.22%;
+    margin: auto;
+    padding-top: 7.083%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+    .comments {
+        width: 90.625%;
+        padding-top: 9.96%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .comments {
+        width: 85.9375%;
+        padding-top: 13.28125%;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 767px) {
+    .comments {
+        width: 91.46%;
+        padding-top: 17.06%;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 374px) {
+    .comments {
+        width: 90%;
+        padding-top: 20%;
+    }
+}

@@ -1,0 +1,58 @@
+.video__duration {
+    position: absolute;
+    width: 55px;
+    margin: 0;
+    top: 165px;
+    left: 30px;
+
+    font-family: 'Inter';
+    font-size: 12px;
+    line-height: 13px;
+    letter-spacing: 0.3em;
+    
+    color: #ffffff;
+    z-index: 2;
+}
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+    .video__duration {
+        top: 100px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .duration-kamchatka {
+        top: 104px;
+        left: 24px;
+    }
+    .duration-observ {
+        top: 82px;
+        left: 24px;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 767px) {
+    .duration-kamchatka{
+        top: 106px;
+        left: 24px;
+        width: 44px;
+    }
+    .duration-observ{
+        top: 82px;
+        left: 24px;
+        width: 44px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 374px) {
+    .duration-kamchatka {
+        top: 88px;
+        left: 16px;
+        width: 44px;
+    }
+    .duration-observ {
+        top: 70px;
+        left: 16px;
+        width: 44px;
+    }
+}

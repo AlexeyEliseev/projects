@@ -1,0 +1,32 @@
+@import url('./__url-heading/url-heading.css');
+@import url('./__url/url.css');
+
+.website {
+    width: 49.187%;
+    margin: 0;
+    align-self: flex-end;
+}
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+    .website {
+        width: 49.137%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .website {
+        width: 48.8%;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 767px) {
+    .website {
+        display: none;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 374px) {
+    .website {
+        display: none;
+    }
+}

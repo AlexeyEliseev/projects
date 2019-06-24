@@ -1,0 +1,14 @@
+@import url('./__title/title.css');
+@import url('./__subtitle/subtitle.css');
+@import url('./__content-row/content-row.css');
+@import url('./__text/text.css');
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    width: 984px;
+    height: 437px;
+    padding: 100.87px 228px 0 228px;
+}

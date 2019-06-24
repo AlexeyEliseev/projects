@@ -1,0 +1,6 @@
+.additional__item-bg {
+    background-size: cover;
+    opacity: 0.5;
+    border-radius: 5px;
+    overflow: hidden;
+}

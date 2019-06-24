@@ -1,0 +1,13 @@
+.website__url-heading {
+    width: 484px;
+    height: 12px;
+    margin: 0;
+    padding-bottom: 16px;
+
+    font-family: 'Inter';
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.2em;
+
+    color: #aaaaaa;
+}

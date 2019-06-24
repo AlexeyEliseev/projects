@@ -1,0 +1,42 @@
+@import url('./comment/comment.css');
+
+.comments__container {
+    width: 100%;
+    margin: 0;
+    padding-top: 6.081%;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+    .comments__container {
+        width: 99.67%;
+        padding-top: 7.75%;
+        flex-direction: row;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .comments__container {
+        width: 57.87%;
+        padding-top: 3.75%;
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 767px) {
+    .comments__container {
+        width: 100%;
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 374px) {
+    .comments__container {
+        width: 100%;
+        padding-top: -8px;
+        flex-direction: column;
+    }
+}

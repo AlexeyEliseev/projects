@@ -1,0 +1,12 @@
+@import url('./__title/title.css');
+@import url('./__website/website.css');
+@import url('./__image/image.css');
+@import url('./__paragraph/paragraph.css');
+
+.place {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 984px;
+    padding: 72px 228px 0 228px;
+}

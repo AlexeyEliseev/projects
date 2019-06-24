@@ -1,0 +1,12 @@
+.footer__copyright {
+    width: 282px;
+    margin: 0;
+    align-self: flex-end;
+
+    font-family: 'Inter';
+    font-size: 14px;
+    line-height: 20px;
+    text-align: right;
+    
+    color: #ffffff;
+}

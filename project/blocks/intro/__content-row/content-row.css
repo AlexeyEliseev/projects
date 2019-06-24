@@ -1,0 +1,11 @@
+@import url('./text-caption/text-caption.css');
+@import url('./text-author/text-author.css');
+
+.content-row {
+    display: flex;
+    justify-content: space-between;
+    width: 984px;
+    height: 154px;
+    margin: 0;
+    padding-top: 35px;
+}

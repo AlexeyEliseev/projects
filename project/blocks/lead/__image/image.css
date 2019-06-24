@@ -1,0 +1,10 @@
+@import url(./group4/group4.css);
+
+.lead__image {
+    width: 984px;
+    height: 554.13px;
+    background-image: url(../../../images/kalegin-michail-179870-unsplash.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}

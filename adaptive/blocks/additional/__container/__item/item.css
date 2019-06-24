@@ -1,0 +1,8 @@
+@import url('./__heading/heading.css');
+@import url('./__text/text.css');
+@import url('./__item-bg/item-bg.css');
+
+.additional__item {
+    width: 284px;
+    position: relative;
+}

@@ -1,0 +1,11 @@
+.content-row__text-caption {
+    width: 683px;
+    height: 154px;
+    margin: 0;
+
+    font-family: 'Inter';
+    font-size: 14px;
+    line-height: 23px;
+    
+    color: #ffffff;
+}

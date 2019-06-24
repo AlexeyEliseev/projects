@@ -1,0 +1,11 @@
+.place__paragraph-main {
+    width: 484px;
+    margin: 0;
+    padding-top: 60px;
+
+    font-family: 'Inter';
+    font-size: 18px;
+    line-height: 30px;
+
+    color: #ffffff;
+}

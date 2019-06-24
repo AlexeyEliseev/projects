@@ -1,0 +1,11 @@
+@import url('./__title/title.css');
+@import url('./__subtitle/subtitle.css');
+@import url('./__icon_play/icon-play.css');
+@import url('./__duration/duration.css');
+@import url('./__item-bg/item-bg.css');
+
+.video__item {
+    position: relative;
+    width: 583px;
+    margin: 0;
+}

@@ -1,0 +1,12 @@
+@import url('./links/links.css');
+@import url('./__copyright/copyright.css');
+
+.footer {
+    width: 1184px;
+    margin: 0;
+    padding: 72px 128px 1px 128px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

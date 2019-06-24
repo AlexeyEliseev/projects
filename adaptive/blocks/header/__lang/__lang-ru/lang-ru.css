@@ -1,0 +1,42 @@
+@import url('./_active/_active.css');
+
+.lang-ru {
+    width: 2.083%;
+    margin-right: 18px; 
+
+    font-family: 'Inter';
+    font-size: 24px;
+    line-height: 23px;
+    text-align: right;
+    text-decoration: none;
+
+    color: #ffffff;
+}
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+    .lang-ru {
+        width: 3.23%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .lang-ru {
+        width: 3.9%;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 767px) {
+    .lang-ru {
+        width: 8%;
+        font-size: 18px;
+        line-height: 96.82%;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 374px) {
+    .lang-ru {
+        width: 9.375%;
+        font-size: 18px;
+        line-height: 17px;
+    }
+}
