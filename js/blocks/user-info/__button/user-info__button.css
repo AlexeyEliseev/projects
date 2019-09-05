@@ -1,0 +1,17 @@
+.user-info__button {
+  position: absolute;
+  top: 16px;
+  right: 0;
+}
+
+.user-info__button:hover {
+  background-color: #ffffff;
+  color: #000;
+}
+
+@media screen and (max-width: 980px) {
+  .user-info__button {
+    position: static;
+    margin-bottom: 40px;
+  }
+}

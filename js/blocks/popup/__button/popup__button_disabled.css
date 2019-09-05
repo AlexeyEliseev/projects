@@ -1,0 +1,9 @@
+#popup-add .popup__button_disabled {
+    background-color: #fff;
+    color: #c5c5c5;
+}
+
+#popup-edit .popup__button_disabled {
+    background-color: #fff;
+    color: #c5c5c5;
+}

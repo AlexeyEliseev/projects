@@ -1,0 +1,16 @@
+.place-card__link {
+    height: 282px;
+    position: relative;
+  }
+
+  .place-card__link:hover {
+    cursor: pointer;
+  }
+  
+  .place-card__link::after {
+    content: '';
+    display: block;
+    width: 282px;
+    height: 282px;
+  }
+  
